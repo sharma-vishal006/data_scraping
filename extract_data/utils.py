@@ -39,12 +39,12 @@ def extract_cin_num(string):
 
 def google_vision_key():
     data = {}
-    data['type'] = "service_account"
-    data['project_id'] = 'firsthv'
-    data['private_key_id'] = '972cfd39328aa3e7f7cd570c11be9e874889d81a'
-    data['private_key'] = '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCk/owH1VvRNcCk\niD6BCACKts+7VxGEVVqzt6wsEPjuwFVCAzz28rf5Pc+Nz0oeGxcEEb5Xqor/indq\nJJ0UgiFMsZUjyCW8/EUoTXui+Cpf83gOh49Qm3h57gssgBopFZtCCXAcZl9uFqqL\nUWJPhBQZ3wuOSEOYsYSrcFv8VOV8JmSzUQmtWeNnRCwxDEhEJpUKfba/1onQQ2xp\nYXyVeDHD+mtyqYTfeihhmpU9vmx7FXfowbmfsjRhOvpOuzKnl0WY59Y3U2Wd11nf\ndT7EdfLeWiNzfIwvpQ5fSE1DDPECxBGEY2Mbj5r1NOVh0SsidyhOYAJHmj0sEycK\n00A1jFfFAgMBAAECggEAFyKgNPr8WG4OmKOIDCS4mrq+jxjK2oDzam7PRBCPLz8l\n1U9J7aCkHl1F7K8LyAPpascoJvfBbMqYKvh+VCFZFP1zmaRXclP3SIrw0q20l2a2\nx2bHuDhMoOA5jeBairc+YXicUUcji3a/LDDZtaeh/+ywHJ/SZqdBoJ5tL4kh8pHf\n7bKi1aApv89i8A2xafb++nO2o/6gPEXxaAUFh9YQkr2TF5xDJHhtVWNuLTxgARKN\nH+qL+kUCX5cJ+D4+86T7lnZmdNtc/XPuMLAkVfQB7r2q3moEwqBqA3E8JWQzUNMl\nhvYNeYnULNEvvFfAqOKqpacEt/cOZB+pHAYDjvb0sQKBgQDWcF6q6HFyDjVM/c+S\nfOebZR8rZ8CmvE3ndt1eAomXCRuTYyroe5kA7cLntnsuLgKzKMBf7o4nbDu1794B\nQ/uPHulNNlvvC1thB0Rb2tpYrtvN1ghI99kfzkJY4fkIyv7si37vK0oSA7LQYEtH\nqnGIDCKJRIfi2M0m1oIB+kDdzQKBgQDE+O0zn7tRBQHQRR5Gt+06UcpS6YKYkyrH\nUdyYO7hlP42vSQ2SDGPQIxpeKBlEzq45Vg6V97SIEnkkxZkPoN6bZnPKj2Uk16E2\nzBBDnlcWyXKBdgnToRESPhVbiI6A/WGK7dgye+MJlkcFmYekvjNo1y18Yh143c8q\noHVNhrSp2QKBgQCC7iNvOPOjjzdOJh6qM6d6gxiv+O5xH8J1VGc/Mk9uL7ptmHwn\nbOfz4DhEIHA/twog9/3V1SNowLYIlUe5ABhFv7r1UP57CzUlHjnH1+2/fixpFokC\nfIpO2DI8cOUMUF2sclPzljvomeeBQXpVbKVbSwV/SJ+ri3Jfh1Pj/zfB9QKBgAfk\neYyx/811R+dSfa4TvJuzn0nHNYZrjzFBZHdtHSxhaYn2gWayvGUgovPW43xQU8bU\nXe1AaalyJAyHJmTr6z+K0WTybfkV8s3BS32KIK83DzGEy0wBji+O8UgjpqIghQIO\nGbWcJTLDJMFir364aFLxHE95lvi62ow4tbqPhTmxAoGAXyZPMfzxVoXnvwM/QMEt\n4CwknPU/bJCWYtkkfcceePuHnyMz+WU1oPBcPYDAL7ZhUbUtJ59NJ2TyPbj1knTV\nN+zEK22gXfyEnLSjGRm0BZh7Q4skUHjOYhBHxlCMMHbTNJFuDIJDqR4T4MxttomO\nqlABK+rEelnVoVf4gdiVh5k=\n-----END PRIVATE KEY-----\n'
-    data['client_email'] = 'eb-speechtotext@firsthv.iam.gserviceaccount.com'
-    data['client_id'] = '116979972600003388557'
+    data['type'] = ""
+    data['project_id'] = ''
+    data['private_key_id'] = ''
+    data['private_key'] = ''
+    data['client_email'] = ''
+    data['client_id'] = ''
     data['auth_uri'] = "https://accounts.google.com/o/oauth2/auth"
     data['token_uri'] = "https://oauth2.googleapis.com/token"
     data['auth_provider_x509_cert_url'] = "https://www.googleapis.com/oauth2/v1/certs"
