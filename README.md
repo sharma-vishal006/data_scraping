@@ -50,7 +50,7 @@ extract_data_from_img(directory, doc_file_path)
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/document-extraction.git
+  git@github.com:sharma-vishal006/data_scraping.git
    ```
 
 2. Install the required dependencies:
@@ -81,8 +81,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributors
 
-- [Your Name](https://github.com/yourusername)
-- [Contributor Name](https://github.com/contributorusername)
+- git@github.com:sharma-vishal006/data_scraping.git
+- Vishal Sharma
 
 ## Issues
 
