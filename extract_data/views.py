@@ -44,7 +44,7 @@ def delete_images(directory_path):
 class ExtractImageFromDoc(APIView):
 
     def get(self, request):
-        directory = "D:/HCL/extrCost/hcl_docx_file/"
+        directory = "Directory where you want to store docx file"
         directory_files = os.listdir(directory)
         all_files_processed = False  # Flag to track if all files have been processed
         
@@ -71,7 +71,7 @@ class ExtractImageFromDoc(APIView):
                     
                     if images:
                         os.remove(file_path)
-                        directory_path = "D:/ocr_images/"
+                        directory_path = "folder path where you want to store fetched images from docx file"
                         
                         for i, image in enumerate(images):
                             filename = "img_"+str(i)+'.png'
@@ -106,14 +106,14 @@ class ExtractImageFromDoc(APIView):
 class Msgtoword(APIView):
     # @action(detail=False, methods=["post"])
     def post(self, request):
-        input_video_path = 'D:/HCL/extrCost/HCL_EMP1/HCL_EMP/'
-        output_video_path = 'D:/HCL/extrCost/hcl_docx_file/'
+        input_path = 'Directory input path from where you will pick msg files'
+        output_path = 'Directory output path where you want to save docx files'
         from .utils import extract_word_files_from_msg
         # Call the trim_video function
         try:
             print("Exctracting data started.......")
             try:
-                extract_word_files_from_msg(input_video_path, output_video_path)
+                extract_word_files_from_msg(input_path, output_path)
             except Exception as e:
                 print("Exception has been occured:",e)
             response_data = {"message": "Fetching data from the msg file success."}
